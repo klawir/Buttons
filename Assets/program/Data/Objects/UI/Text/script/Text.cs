@@ -6,6 +6,6 @@ public class Text : UI.Object
 {
     void Start()
     {
-        Close();
+        Remove();
     }
 }

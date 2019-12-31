@@ -479,7 +479,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3056504042407816996, guid: fdc02749344448649a3a1593c8354ce4,
           type: 3}
-        m_MethodName: Render
+        m_MethodName: Spawn
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 608339159}
@@ -760,7 +760,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1676544321}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5684256666407451253, guid: 5b04e9c54fde67a4a8dc94d04eb5de6b,
+          type: 3}
+        m_MethodName: Spawn
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 608339159}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1676544321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1024,7 +1036,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 3684019297453212833, guid: 860abe346bf56be478a5d22ec2a5f485,
           type: 3}
-        m_MethodName: Render
+        m_MethodName: Spawn
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 608339159}
